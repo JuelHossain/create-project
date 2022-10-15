@@ -42,14 +42,14 @@ cp -r "$path"/eslint/.prettierrc.json .
 cp -r "$path"/eslint/.eslintrc.json .
 
 echo "folder structure generated successfully"
+npmAddScript -k lint -v "npx eslint ./src/ --ext .jsx,.js"
+npmAddScript -k fix -v "npx eslint --fix"
 
 bash "$path"/../gitinit.sh
 
 echo "github repo created and code has been pushed successfully"
 echo "starting the project, here we go"
 
-npmAddScript -k lint -v "npx eslint ./src/ --ext .jsx,.js"
-npmAddScript -k fix -v "npx eslint --fix"
 
 # starting the project
 npm run dev
