@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-with-vite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "create-project",
   "main": "create-project.sh",
   "bin": {
