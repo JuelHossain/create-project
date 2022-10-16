@@ -1,7 +1,7 @@
 {
   "name": "create-react-app-with-vite",
   "version": "0.1.1",
-  "description": "create-project",
+  "description": "create a react project with vite, redux-toolkit , tailwindcss, mantine ui library react router dom, git initialized with main branch just set origin and push",
   "main": "create-project.sh",
   "bin": {
     "create-react-project": "create-project.sh"
@@ -10,8 +10,23 @@
     "lint": "npx eslint ./setup/src/ --ext .js,.jsx",
     "fix": "npx eslint --fix"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juelhossain/create-react-app-with-vite"
+  },
+  "homepage": "https://github.com/juelhossain/create-react-app-with-vite",
   "author": "juel hossain",
   "license": "ISC",
+  "keywords": [
+    "cra",
+    "create-react-app",
+    "vite",
+    "react",
+    "redux",
+    "tailwindcss",
+    "mantine",
+    "react-router-dom"
+  ],
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^19.0.4",
